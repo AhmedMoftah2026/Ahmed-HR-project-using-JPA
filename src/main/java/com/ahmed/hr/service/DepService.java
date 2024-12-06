@@ -26,7 +26,14 @@ public class DepService {
         return depRepo.save(dep);
     }
     public List<Department> findAll(){
+
         return depRepo.findAll();
+    }
+
+
+    public int deleteByName(String deptName) {
+
+        return depRepo.deleteByName(deptName);
     }
 
 }

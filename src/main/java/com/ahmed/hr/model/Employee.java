@@ -18,7 +18,6 @@ public class Employee {
     private String name;
     private Double salary;
     @ManyToOne
-
     private Department department;
 
     @OneToOne

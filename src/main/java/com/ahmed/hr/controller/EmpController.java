@@ -33,5 +33,9 @@ public class EmpController {
     public List<Employee> findAll(){
         return empService.findAll();
     }
-
+//    @GetMapping("/salary")
+//    public ResponseEntity<?> findBySalary(@RequestParam Double salary, @RequestParam String name) {
+//
+//        return  ResponseEntity.ok(empService.findBySalary(salary , name)) ;
+//    }
 }

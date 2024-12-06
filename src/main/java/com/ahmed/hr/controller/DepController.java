@@ -31,4 +31,9 @@ public class DepController {
     public List<Department> findAll(){
         return depService.findAll();
     }
+    @DeleteMapping("/by-name/{deptName}")
+    public ResponseEntity<?> deleteByName(@PathVariable String deptName) {
+
+        return ResponseEntity.ok(depService.deleteByName(deptName));
+    }
 }

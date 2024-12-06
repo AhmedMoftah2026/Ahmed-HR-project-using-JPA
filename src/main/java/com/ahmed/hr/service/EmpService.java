@@ -27,4 +27,13 @@ public class EmpService {
             return empRepo.findAll();
         }
 
+
+//
+
+//
+//public List<Employee> findBySalary (Double salary, String name){
+//
+//    return empRepo.findBySalary(salary, name);
+//}
+
 }
