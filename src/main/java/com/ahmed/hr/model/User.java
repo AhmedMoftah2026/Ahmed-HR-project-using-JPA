@@ -25,7 +25,7 @@ public class User {
     private Set<Role> roles = new HashSet<>();
     //	@OneToOne(mappedBy = "user" , fetch = FetchType.LAZY)
 //	private Employee employee;
-
+//gg
     public void addRole (Role role) {
         roles.add(role);
     }
